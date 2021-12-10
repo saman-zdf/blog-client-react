@@ -1,15 +1,16 @@
 import React from 'react'
 import Header from '../../header/Header'
 import Sidebar from '../../sidebar/Sidebar'
-import Post from '../../post/Post'
+import Posts from '../../post/Posts'
 import './home.css'
 const Home = () => {
   return (
     <>
       <Header />
       <div className="home">
-        <Post />
+        <Posts />
         <Sidebar />
+  
       </div>
     </>
   )

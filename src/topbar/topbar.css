@@ -9,6 +9,7 @@
   align-content: center;
   /* font-family: 'Roboto', sans-serif; */
   font-family: 'Varela Round', sans-serif;
+  z-index: 99;
 }
 .topLeft,
 .topRight {

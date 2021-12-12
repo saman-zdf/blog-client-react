@@ -10,3 +10,6 @@ export const LoginSucessful = (user) => ({
 export const LoginFilure = (user) => ({
   type: 'LOGIN_FAILURE',
 });
+export const Logout = (user) => ({
+  type: 'LOGOUT',
+});
